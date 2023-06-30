@@ -1,4 +1,5 @@
 import './App.css'
+import RockPaperScissors from './components/RockPaperScissors'
 
 const choicesList = [
   {
@@ -18,6 +19,6 @@ const choicesList = [
   },
 ]
 
-const App = () => <div>Hello World</div>
+const App = () => <RockPaperScissors choicesList={choicesList} />
 
 export default App
